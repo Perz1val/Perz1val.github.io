@@ -1,0 +1,425 @@
+*{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+section{
+    min-height: 80vh;
+}
+/* End of default settings */
+
+/* Header */
+header{
+    height: 80px;
+}
+
+.header-wrap{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-family: SegoeWPN-Light,MyriadPro-Regular,AdobeInvisFont;
+    font-size: 19px;
+}
+
+header img{
+    height: 50px;
+    margin-left: 163px;
+}
+
+.nav-menu{
+    margin-right: 143px;
+}
+
+.nav-menu a{
+    float: left;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.nav-menu a:first-child{
+    border-right: 1px solid #000;
+}
+
+.nav-menu a:last-child{
+    border-left: 1px solid #000;
+}
+/* Header ENDS */
+
+.app{
+    background-image: url(/img/bgheader.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.app-wrap{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px
+}
+/* Cool "download" button */
+.button {
+    border-radius: 4px;
+    background-color: #0acece;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+.button:hover span {
+    padding-right: 25px;
+  }
+  
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+/* Cool button ends */
+
+.iphone{
+    padding-right: 90px;
+}
+/* this is part with earth logo and text AOTY */
+.earth-logo{
+    height: 56px;
+    float: left;
+    padding-left: 5px;
+}
+.app-oty p{
+    color: rgba(255, 255, 255, 0.596);
+    padding-left: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+}
+/* END of part with logo*/
+
+.app-text-wrap{
+    margin: auto 0px;
+}
+
+.app-divs{
+    margin-top: 50px;
+}
+
+.my-apps{
+    font-family: 'Raleway', sans-serif;
+    color: rgba(255, 255, 255, 0.596);
+}
+.h2-ma{
+    font-size: 39px;
+    letter-spacing: 2px;
+    font-family: 'Raleway', sans-serif;
+    color: rgba(255, 255, 255, 0.596);
+    text-transform: uppercase;
+    transition: ease-in .10s; 
+}
+
+/* Section ABOUT begins */
+
+.about{
+    background-color: #636363;
+}
+.about-text{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.about-text h1{ /* styles for text "about minimal"*/
+    padding-bottom: 20px;
+    font-size: 41px;
+    font-family: 'Raleway', sans-serif;
+    color: rgba(0, 0, 0, 0.664);
+}
+
+.about-text p{
+    font-family: 'Raleway', sans-serif;
+    color: rgba(0, 0, 0, 0.664);
+}
+.about-img{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+/* ABOUT Ends */
+
+/* Slider with using JS */
+
+.tablink {
+    background-color:#09AB9F;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+  
+.tablink:hover {
+    background-color: rgb(6, 113, 128);
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 60vh;
+}
+  
+#Home {background-image: url(/img/bgheader.png) ; background-repeat: no-repeat; background-size: cover;}
+#News {background-image: url(/img/bgheader.png) ; background-repeat: no-repeat; background-size: cover;}
+#Contact {background-image: url(/img/bgheader.png) ; background-repeat: no-repeat; background-size: cover;}
+#About {background-image: url(/img/bgheader.png) ; background-repeat: no-repeat; background-size: cover;}
+
+.home-wrap{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+/* First tab */
+.laptop{
+    height: 330px;
+    float: left;
+}
+
+.slider-home-text p{
+    padding-top: 10px;
+    letter-spacing: 2px;
+    font-family: 'Raleway', sans-serif;
+    color: rgba(255, 255, 255, 0.596);
+}
+
+.slider-home-text{
+    margin: auto 0px;
+    
+}
+
+.slider-home-text button{
+    margin-top: 40px;
+}
+/* End of first tab */
+
+/* Second tab */
+
+.news-wrap{
+    display: flex;
+    justify-content: center;
+    padding: auto 0px;
+}
+
+.apple-logo{
+    cursor: pointer;
+    margin: auto 0px;
+    height: 150px;
+    width: 150px;
+    padding-right: 100px;
+}
+
+.news-text p{
+    padding-top: 20px;
+    letter-spacing: 2px;
+    font-family: 'Raleway', sans-serif;
+    color: rgba(255, 255, 255, 0.596);
+}
+
+.news-wrap h2:hover{
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 41px;
+    border-bottom: 3px solid rgb(167, 242, 255);
+}
+
+.news-wrap-second{
+    margin-top: 50px;
+}
+/* END of second tAB */
+
+/* Third tab */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 1px;
+    margin-bottom: 6px;
+    resize: vertical;
+}
+  
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+  
+.container {
+    color: black;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    letter-spacing: 2px;
+    font-family: 'Raleway', sans-serif;
+    padding: 20px;
+}
+/* END of third tab */
+
+/* LAST tab */
+
+.fa {
+    padding: 25px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 4px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+  
+  .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  
+  .fa-skype {
+    background: #00aff0;
+    color: white;
+  }
+  
+  .fa-android {
+    background: #a4c639;
+    color: white;
+  }
+  
+  .fa-dribbble {
+    background: #ea4c89;
+    color: white;
+  }
+  
+  .fa-vimeo {
+    background: #45bbff;
+    color: white;
+  }
+  
+  .fa-tumblr {
+    background: #2c4762;
+    color: white;
+  }
+  
+  .fa-vine {
+    background: #00b489;
+    color: white;
+  }
+  
+  .fa-foursquare {
+    background: #45bbff;
+    color: white;
+  }
+  
+  .fa-stumbleupon {
+    background: #eb4924;
+    color: white;
+  }
+  
+  .fa-flickr {
+    background: #f40083;
+    color: white;
+  }
+  
+  .fa-yahoo {
+    background: #430297;
+    color: white;
+  }
+  
+  .fa-soundcloud {
+    background: #ff5500;
+    color: white;
+  }
+  
+  .fa-reddit {
+    background: #ff5700;
+    color: white;
+  }
+  
+  .fa-rss {
+    background: #ff6600;
+    color: white;
+  }
+
+.about-tab-wrap{
+    display: flex;
+    justify-content: space-around;
+}
+/* END of LAST tab */

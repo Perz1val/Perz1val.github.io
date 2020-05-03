@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samuel Lackan</title>
+</head>
+<body>
+
+    <header>
+        <div class="header-wrap">
+        <img src="/img/logo.png" alt="LOGO">
+            <div class="nav-menu">
+                <a href="#">Products</a>
+                <a href="#">Services</a>
+                <a href="#">Contacts</a>
+            </div>    
+        </div>
+    </header>
+
+    <section class="app">
+        <div class="app-wrap">
+            <img class="iphone" src="/img/iphone.png" alt="IPhone">
+
+            <div class="app-text-wrap">
+                <div class="app-oty app-divs">
+                    <img class="earth-logo" src="/img/earth.png" alt="earth logo">
+                    <p>App of <br>
+                        the year</p>
+                </div>
+                <div class="my-apps app-divs">
+                    <h2 class="h2-ma">My apps shoecase</h2>
+                    <p>Lorem ipsum doloripsum dolor ipsum dolor ipsum dolor </p>
+                </div>
+
+                <button class="button app-divs"><span>Download </span></button>
+            </div>
+
+        </div>    
+    </section>
+
+    <seciton class="about">
+        <div class="about-wrap">
+            <div class="about-text">
+                <h1>About minimal</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Ab culpa debitis dicta quod accusantium <br> 
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing  elit.Ab culpa debitis dicta quod accusantium <br> 
+                    Ab culpa debitis dicta quod accusantium maxime dolor animi, Ab culpa debitis dicta quod accusan<br>
+                    odio quis dolores, ea porro corporis, iusto architecto asperiores eius. Possimus, esse natus!</p>
+
+            </div> 
+                <div class="about-img">
+                    <img src="/img/aoty about.png" alt="APP OF THE YEAR PIC">
+                </div>
+        </div>
+    </seciton>
+
+    <section class="slider">
+        <button class="tablink" onclick="openPage('Home', this, '#00737C')" id="defaultOpen" >Home</button>
+        <button class="tablink" onclick="openPage('News', this, '#007E83')">News</button>
+        <button class="tablink" onclick="openPage('Contact', this, '#06918A')">Contact</button>
+        <button class="tablink" onclick="openPage('About', this, '#158070')">About</button>
+        
+        <div id="Home" class="tabcontent">
+            <div class="home-wrap">
+                <img class="laptop" src="/img/laptop.png" alt="LAPTOP">
+
+                <div class="slider-home-text">
+                    <h2 class="h2-ma">My apps shoecase</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> 
+                    Reprehenderit non incidunt dolores perferendis ad expedita  </p>
+                    <button class="button"><span>Download </span></button>
+                </div>    
+            </div>
+        </div>
+        
+        <div id="News" class="tabcontent">
+            <div class="news-wrap">
+                <img class="apple-logo" src="/img/apple.png" alt="Apple logo">
+
+                <div class="news-text">
+                <h2 class="h2-ma" >Lorem ipsum ipsum Lorem</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, quia tenetur! <br>
+                Eius provident expedita natus voluptas exercitationem ab, dicta sequi pariatur <br>
+                fugit molestias in nemo praesentium deserunt voluptatem aliquid? Est? <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, quia tenetur! <br>
+                Eius provident expedita natus voluptas exercitationem ab, dicta sequi pariatur <br>
+                fugit molestias in nemo praesentium deserunt voluptatem aliquid? Est?
+                </p>
+                </div>
+            </div>
+            <div class="news-wrap news-wrap-second">
+                <img class="apple-logo" src="/img/switch.png" alt="Apple logo">
+
+                <div class="news-text">
+                <h2 class="h2-ma" >Lorem ipsum ipsum Lorem</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, quia tenetur! <br>
+                Eius provident expedita natus voluptas exercitationem ab, dicta sequi pariatur <br>
+                fugit molestias in nemo praesentium deserunt voluptatem aliquid? Est? <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, quia tenetur! <br>
+                Eius provident expedita natus voluptas exercitationem ab, dicta sequi pariatur <br>
+                fugit molestias in nemo praesentium deserunt voluptatem aliquid? Est?
+                </p>
+                </div>
+            </div>
+        </div>
+        
+        <div id="Contact" class="tabcontent">
+            <div class="container">
+              <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                  <option value="australia">Australia</option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                  <option value="slovakia">Slovakia</option>
+                </select>
+            
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            
+                <input type="submit" value="Submit">
+              </form>
+            </div>
+        </div>
+        
+        <div id="About" class="tabcontent">
+            <h2 class="h2-ma">Social Media Buttons</h2>
+            <div class="about-tab-wrap">
+
+
+            <!-- Add font awesome icons -->
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-pinterest"></a>
+            <a href="#" class="fa fa-snapchat-ghost"></a>
+            <a href="#" class="fa fa-skype"></a>
+            <a href="#" class="fa fa-android"></a>
+            <a href="#" class="fa fa-dribbble"></a>
+            <a href="#" class="fa fa-vimeo"></a>
+            <a href="#" class="fa fa-tumblr"></a>
+            <a href="#" class="fa fa-vine"></a>
+            <a href="#" class="fa fa-foursquare"></a>
+            <a href="#" class="fa fa-stumbleupon"></a>
+            <a href="#" class="fa fa-flickr"></a>
+            <a href="#" class="fa fa-yahoo"></a>
+            <a href="#" class="fa fa-reddit"></a>
+            <a href="#" class="fa fa-rss"></a>
+        </div>
+        
+        <script>
+        function openPage(pageName,elmnt,color) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablink");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].style.backgroundColor = "";
+          }
+          document.getElementById(pageName).style.display = "block";
+          elmnt.style.backgroundColor = color;
+        }
+        
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+        </script>
+    </section>
+
+
+    
+</body>
+</html>
