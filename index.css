@@ -422,4 +422,9 @@ input[type=submit]:hover {
     display: flex;
     justify-content: space-around;
 }
+
+.copyright{
+    text-align: center;
+    font-size: 40px;
+}
 /* END of LAST tab */
